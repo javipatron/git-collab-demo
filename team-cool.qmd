@@ -30,3 +30,18 @@ Cheers,
 JP
 
 Wow, that's so great!
+
+Hey Carlo, check this out
+
+```{r}
+
+library(palmerpenguins)
+
+shark_top <- c(1, 6, 2, 4, 3)
+shark_down <- c(-1, -3, -2, -3, 2)
+
+plot(shark_top, type="o", col="blue", ylim=c(-10,10))
+lines(shark_down)
+```
+
+PLEASE Help me out drawing a better shark shape. Thanks
